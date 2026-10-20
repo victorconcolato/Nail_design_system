@@ -1,10 +1,5 @@
-class Serviços:
-    def __init__(self, servico, preço, duração, material, data, forma_pgto):
-        self.servico = servico
+class Servicos:
+    def __init__(self, cliente,preço, duracao):
+        self.cliente = cliente #Objeto Cliente
         self.preço = preço
-        self.duração = duração
-        self.material = material
-        self.data = data
-        self.forma_pgto = forma_pgto    
-
-        
+        self.duração = duracao
